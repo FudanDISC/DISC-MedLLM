@@ -145,6 +145,7 @@ To diversify our training set and prevent skill degradation, we incorporated gen
 
 <br>
 
+
 ### Download
 We have released a total of 470k training data entries, including re-constructed dialogues and knowledge graph QA pairs. You can download the dataset via the provided [link](https://huggingface.co/datasets/Flmc/DISC-Med-SFT).
 <!-- ## Training
