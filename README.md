@@ -253,15 +253,15 @@ Our evaluation procedure draws upon three distinct datasets: Chinese Medical Ben
 ## Acknowledgement
 This project wouldn't have been possible without the support and contributions of various individuals, teams, and organizations. Special thanks go to these repositories:
 
-* [**MedDialog**](https://github.com/UCSD-AI4H/Medical-Dialogue-System)
+- [**MedDialog**](https://github.com/UCSD-AI4H/Medical-Dialogue-System)
 
-* [**cMeKG**](https://github.com/king-yyf/CMeKG_tools)
+- [**cMeKG**](https://github.com/king-yyf/CMeKG_tools)
 
-* [**cMedQA**](https://github.com/zhangsheng93/cMedQA2)
+- [**cMedQA**](https://github.com/zhangsheng93/cMedQA2)
 
-* [**Baichuan-13B**](https://github.com/baichuan-inc/Baichuan-13B)
+- [**Baichuan-13B**](https://github.com/baichuan-inc/Baichuan-13B)
 
-* [**FireFly**](https://github.com/yangjianxin1/Firefly)
+- [**FireFly**](https://github.com/yangjianxin1/Firefly)
 
 Thank you also for the work that provided important assistance to the project, but limited in length.
 
