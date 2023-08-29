@@ -27,14 +27,14 @@ Owing to our goal-oriented strategy and the framework that integrates both LLM a
 * **Ability of multi-turn inquiry**
 * **Alignment with human preferences**
 
-<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/data_construction.png" alt="data-construction" width="75%"/>
+<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/data_construction.png" alt="data-construction" width="85%"/>
 
 ## Demo
 ### Consultation
-<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/consultation.gif" alt="sample1" width="50%"/>
+<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/consultation.gif" alt="sample1" width="60%"/>
 
 ### Treatment Inquiry
-<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/advice.gif" alt="sample2" width="50%"/>
+<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/advice.gif" alt="sample2" width="60%"/>
 
 ## Dataset
 <!-- In order to align the distribution of actual doctor responses with the intended AI doctor response distribution, our dataset is constructed from five main resources: Real-world Conversations (420k), Knowledge Graph-derived Question-Answer pairs (50k), Artificially Annotated Data aligned with human preferences (2k), MedMCQA (8k), and additional general data (34k). -->
