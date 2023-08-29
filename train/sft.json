@@ -1,0 +1,33 @@
+{
+    "output_dir": "/root/output/your_path",
+    "model_name_or_path": "Flmc/DISC_MedLLM",
+    "deepspeed": "./train/train_args/ds_z3_config.json",
+    "train_file": "./train/data/test_examples.jsonl",
+    "num_train_epochs": 1,
+    "per_device_train_batch_size": 4,
+    "gradient_accumulation_steps": 3,
+    "learning_rate": 1e-5,
+    "max_seq_length": 1200,
+    "logging_steps": 50,
+    "save_steps": 2000,
+    "save_total_limit": 3,
+    "lr_scheduler_type": "cosine",
+    "warmup_steps": 800,
+    "resume_from_checkpoint": false,
+
+    "gradient_checkpointing": false,
+    "disable_tqdm": false,
+    "optim": "adamw_hf",
+    "seed": 42,
+    "fp16": false,
+    "bf16": true,
+    "report_to": "tensorboard",
+    "dataloader_num_workers": 5,
+    "save_strategy": "steps",
+    "weight_decay": 0,
+    "max_grad_norm": 1.0,
+    "remove_unused_columns": false
+}
+
+
+

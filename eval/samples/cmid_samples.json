@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "1-6020",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "病因"
+        },
+        "cate": "病症",
+        "question": "你好，我想咨询一下，我小便时有疼痛感，请问是怎么回事？"
+    },
+    {
+        "id": "1-11825",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "临床表现(病症表现)"
+        },
+        "cate": "病症",
+        "question": "肾结石，肾积水过几次，现在偶尔肉眼可见尿血，怎么办"
+    },
+    {
+        "id": "1-2964",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "相关病症"
+        },
+        "cate": "病症",
+        "question": "颈部脊髓损伤有什么危害？"
+    },
+    {
+        "id": "1-1321",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "治疗方法"
+        },
+        "cate": "病症",
+        "question": "杨东银大夫你好我在2015年9月面布疼痛经检查为三叉神经痛后服卡马西平去年夏天减轻现在冷的时候面部不痛只是在吃饭时牙龈痛痛时很历害请问有什么好法治疗"
+    },
+    {
+        "id": "1-11940",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "病因"
+        },
+        "cate": "病症",
+        "question": "你好小便到最后刺痛并伴有出血并且正是月经刚刚来喝些凉茶和大量水有好转但这是第二次情况请问确是何因？"
+    },
+    {
+        "id": "1-6690",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "治疗方法"
+        },
+        "cate": "病症",
+        "question": "请问月经过后白带带血持续两个月怎么办？"
+    },
+    {
+        "id": "1-8005",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "治疗方法"
+        },
+        "cate": "病症",
+        "question": "支气管扩张怎么办，而且痰带血"
+    },
+    {
+        "id": "1-7414",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "禁忌"
+        },
+        "cate": "病症",
+        "question": "同事对我说他的龟头上长了许多红色的疹子，非常的难受，现在非常的瘙痒，忍不住的想挠一挠，都抓破了，我就陪他去医院检查，结果医生检查出他得了尖锐湿疣。平时应该注意什么呢？"
+    },
+    {
+        "id": "1-11206",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "临床表现(病症表现)"
+        },
+        "cate": "病症",
+        "question": "膝盖扭伤内侧疼膝盖正面肿下面弯曲伸直有响声"
+    },
+    {
+        "id": "1-11928",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "治疗方法"
+        },
+        "cate": "病症",
+        "question": "你好，我想问一下，尿路感染，怎么办？"
+    },
+    {
+        "id": "1-2812",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "禁忌"
+        },
+        "cate": "病症",
+        "question": "医生您好!我妈有脑血栓不严重一直在吃脑血栓的药现在眼睛越来越模糊,估计和吃脑血栓的药有关,那个药上火.现在想给她吃明目地黄丸能吃吗对脑血栓有影响吗"
+    },
+    {
+        "id": "1-2579",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "严重性"
+        },
+        "cate": "病症",
+        "question": "高血压85～140属于第几期？"
+    },
+    {
+        "id": "1-11968",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "临床表现(病症表现)"
+        },
+        "cate": "病症",
+        "question": "小便次数多是怎么回事呢？"
+    },
+    {
+        "id": "1-482",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "病因"
+        },
+        "cate": "病症",
+        "question": "您好，我以前不运动的时候，都不会生病，从前几个月开始，每天会慢跑一个小时，然后运动一下，从运动以后，每个月十号左右都会感冒一次，这是为什么？"
+    },
+    {
+        "id": "1-3990",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "定义"
+        },
+        "cate": "病症",
+        "question": "急性心肌梗死是什么病"
+    },
+    {
+        "id": "1-6649",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "病因"
+        },
+        "cate": "病症",
+        "question": "请问月经量不多应该怎么办？"
+    },
+    {
+        "id": "1-4837",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "治疗方法"
+        },
+        "cate": "病症",
+        "question": "关节扭伤适合用云南白药关节止痛膏吗？"
+    },
+    {
+        "id": "1-2887",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "临床表现(病症表现)"
+        },
+        "cate": "病症",
+        "question": "肾性脑病要做哪些检查"
+    },
+    {
+        "id": "1-7309",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "禁忌"
+        },
+        "cate": "病症",
+        "question": "检查出来白癜风，白斑长在脸上，压力挺大的，已经在治疗了。云南曲靖夏季得了白癜风生活上要注意些什么"
+    },
+    {
+        "id": "1-889",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "治疗方法"
+        },
+        "cate": "病症",
+        "question": "神经痛应该如何治疗？"
+    },
+    {
+        "id": "1-9288",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "临床表现(病症表现)"
+        },
+        "cate": "病症",
+        "question": "我年龄还小可是平常一多运动就难受，我也是低血压！平常就是想吐！走路不到十分钟眼睛就黑了！该咋办"
+    },
+    {
+        "id": "1-1945",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "临床表现(病症表现)"
+        },
+        "cate": "病症",
+        "question": "经前肚子疼怎么办"
+    },
+    {
+        "id": "1-7941",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "病症禁忌"
+        },
+        "cate": "病症",
+        "question": "我现在有慢阻肺，请问怎么才能够维持肺功能不使其恶化？"
+    },
+    {
+        "id": "1-7259",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "临床表现(病症表现)"
+        },
+        "cate": "病症",
+        "question": "医生您好，我这两天突然发现阴唇上有一排小颗粒，阴道口上方有块肉团，平滑，很软，外阴也有瘙痒的情况，最近一个多月没有同房过，是不是尖锐湿疣？"
+    },
+    {
+        "id": "1-3941",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "治疗方法"
+        },
+        "cate": "病症",
+        "question": "先心病房缺可以吃补血调经片和女金胶囊吗"
+    },
+    {
+        "id": "1-9983",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "临床表现(病症表现)"
+        },
+        "cate": "病症",
+        "question": "肠系淋巴结炎，越来越反复发作，不爱吃饭有时呕吐。"
+    },
+    {
+        "id": "1-77",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "治疗方法"
+        },
+        "cate": "病症",
+        "question": "变异性哮喘怎么治?"
+    },
+    {
+        "id": "1-11053",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "病症禁忌"
+        },
+        "cate": "病症",
+        "question": "两周前连喝三天羊肉汤多年没犯的痔疮又犯了，吃过痔疮药，很快好了。前天吃了鳖，昨天就犯了痔疮，没在意，吃了药以为能好，昨天晚上又吃了鳖，结果今天早上痔疮更厉害了。吃羊肉，鳖诱发痔疮的原理是什么啊？我生活很规律，不熬夜，三餐准时，少量抽烟，不喝酒。"
+    },
+    {
+        "id": "1-7905",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "病因"
+        },
+        "cate": "病症",
+        "question": "支气管扩张怎么办？"
+    },
+    {
+        "id": "1-12175",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "病症",
+            "label_36class": "治疗方法"
+        },
+        "cate": "病症",
+        "question": "脾脏血管瘤如何治疗"
+    },
+    {
+        "id": "1-1359",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "副作用"
+        },
+        "cate": "药物",
+        "question": "枣仁安神胶囊有没有依赖性"
+    },
+    {
+        "id": "1-1358",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "人家都说拉莫三嗪片(利必通)这个药是可以治疗癫痫到底是真的还是假的？"
+    },
+    {
+        "id": "1-4790",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "用法"
+        },
+        "cate": "药物",
+        "question": "我想请问钙尔奇是咀嚼服用还是用水送服的？"
+    },
+    {
+        "id": "1-5037",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "作用"
+        },
+        "cate": "药物",
+        "question": "您好！请问一下，如果经常服用盐酸文拉法辛缓释胶囊有什么作用呢？"
+    },
+    {
+        "id": "1-6831",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "请问月经量多服用什么药？"
+    },
+    {
+        "id": "1-8947",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "你好，医生，请问一下心绞痛可以用七十味珍珠丸吗？效果怎么样"
+    },
+    {
+        "id": "1-10248",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "那个我想问问哦，心脏病的人是不是不可以使用滴通鼻炎水的呢？谢谢告诉我。"
+    },
+    {
+        "id": "1-1410",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "副作用"
+        },
+        "cate": "药物",
+        "question": "前几天我在打篮球时扭到了脚，连脚都有点肿了，经常会有点疼痛，痛到睡不着觉，别人介绍给我使用芬太尼透皮贴剂，用后会呕吐，这是怎么了？"
+    },
+    {
+        "id": "1-9223",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "用法"
+        },
+        "cate": "药物",
+        "question": "高血压吃药己有一年多，请问氨氯地平与缬沙坦能同时服用吗？"
+    },
+    {
+        "id": "1-3473",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "用法"
+        },
+        "cate": "药物",
+        "question": "复方氢氧化铝片正确的使用方法如何的呢？一天用多少比较合适？"
+    },
+    {
+        "id": "1-2273",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "作用"
+        },
+        "cate": "药物",
+        "question": "珊瑚七十味丸这个药对冠心病的病患治疗有效果吗？有没有药物副作用？"
+    },
+    {
+        "id": "1-11375",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "小孩有点缺钙的，不知道吃了鱼油牛磺酸软胶囊胡会不会有好转呢？"
+    },
+    {
+        "id": "1-895",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "用法"
+        },
+        "cate": "药物",
+        "question": "宝宝要普通鱼肝油的话吃几个月为好？这些也是药物应该不是吃得越多越好的吧！"
+    },
+    {
+        "id": "1-9936",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "内分泌紊乱，不知道有没有什么药能缓解这样子的病情。"
+    },
+    {
+        "id": "1-5522",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "副作用"
+        },
+        "cate": "药物",
+        "question": "吃了奥氮平片后变胖了请问是正常的吗"
+    },
+    {
+        "id": "1-5182",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "用法"
+        },
+        "cate": "药物",
+        "question": "可同利培酮口腔崩解片怎么用？"
+    },
+    {
+        "id": "1-3046",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "你好！请问一下止渴降糖胶囊能用于治疗高血糖吗？"
+    },
+    {
+        "id": "1-4201",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "用法"
+        },
+        "cate": "药物",
+        "question": "屁眼红，可以长期使用鞣酸软膏吗"
+    },
+    {
+        "id": "1-9990",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "我想一下鞣酸苦参碱胶囊可以治疗什么病？"
+    },
+    {
+        "id": "1-10069",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "外公今年已经七十岁了，血脂高多年，一直服用药物没什么效果，可以改服用丹田降脂丸治疗吗？"
+    },
+    {
+        "id": "1-6755",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "作用"
+        },
+        "cate": "药物",
+        "question": "请问治疗盆腔炎用盆炎清栓治疗效果如何？"
+    },
+    {
+        "id": "1-6916",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "用法"
+        },
+        "cate": "药物",
+        "question": "患有霉菌性阴道炎，用克霉唑阴道栓治疗，是应该月经结束后使用吗？需要用药几个疗程呢？"
+    },
+    {
+        "id": "1-1136",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "你好，我是因为腰椎盘突出引起的坐骨神经痛，用骨仙片有效吗？谢谢"
+    },
+    {
+        "id": "1-5406",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "副作用"
+        },
+        "cate": "药物",
+        "question": "我阿姨有癫痫病，经常吃德巴金，不知道会不会很伤胃？"
+    },
+    {
+        "id": "1-10008",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "药物禁忌"
+        },
+        "cate": "药物",
+        "question": "刚刚才吃了抗宫炎片，目前正在吃药，可以吃些碱性的食物吗？"
+    },
+    {
+        "id": "1-6662",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "用法"
+        },
+        "cate": "药物",
+        "question": "请问治疗霉菌性阴道炎的时间要多久？"
+    },
+    {
+        "id": "1-5475",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "中成药十一味维命胶囊可以用于狂躁症吗？"
+    },
+    {
+        "id": "1-5736",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "尿道炎吃什么药好的快"
+    },
+    {
+        "id": "1-8904",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "适用症"
+        },
+        "cate": "药物",
+        "question": "你好血压高心脏也不好可以连吃三个月的同仁牛黄清心丸吗"
+    },
+    {
+        "id": "1-3197",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "药物",
+            "label_36class": "作用"
+        },
+        "cate": "药物",
+        "question": "你好，我是患有甲亢的患者，吃甲亢灵片来治疗可以吗？"
+    },
+    {
+        "id": "1-4074",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "费用"
+        },
+        "cate": "治疗方案",
+        "question": "痔疮手术费用多少的呢?"
+    },
+    {
+        "id": "1-1268",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "妈妈今年六十，她97年得了中风，不过她现在可以自理，有什么需要注意的呢？在饮食和作息方面的"
+    },
+    {
+        "id": "1-6834",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "请问我有子宫肌瘤一定要做手术吗？"
+    },
+    {
+        "id": "1-807",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "睡到半夜两点就失眠了该怎么办好啊，我现在怀孕二十三周出现这种情况什么好的办法可以改善？"
+    },
+    {
+        "id": "1-4591",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "有时出血，有时不出，最近感觉比较严重，大便时喷血，检查为内痔，没有疼痛，医生建议做手术，但是做手术复发的几率很高，不做手术可如何治疗？"
+    },
+    {
+        "id": "1-4588",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "我患上内痔非常痛苦，想我想了解内痔是如何治疗的？"
+    },
+    {
+        "id": "1-194",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "恢复"
+        },
+        "cate": "治疗方案",
+        "question": "间质性肺炎怎么才能好,非常苦恼啊"
+    },
+    {
+        "id": "1-4436",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "恢复时间"
+        },
+        "cate": "治疗方案",
+        "question": "割痔疮需要休息多久"
+    },
+    {
+        "id": "1-5951",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "如何彻底治愈膀胱炎"
+    },
+    {
+        "id": "1-35",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "化验/体检方案"
+        },
+        "cate": "治疗方案",
+        "question": "患有支气管扩张具体要做什么检查?"
+    },
+    {
+        "id": "1-3125",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "糖尿病患者能吃钙尔奇吗？能有效治愈吗？如何办啊？"
+    },
+    {
+        "id": "1-3465",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "治疗时间"
+        },
+        "cate": "治疗方案",
+        "question": "老婆上了年纪，现在处于更年期，身体有不少的问题存在吃这个药，服用多长时间才能见效？"
+    },
+    {
+        "id": "1-4482",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "生孩子痔疮出来了怎么处理"
+    },
+    {
+        "id": "1-3725",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "临床意义/检查目的"
+        },
+        "cate": "治疗方案",
+        "question": "急性心肌梗死患者为什么需要卧床休息？"
+    },
+    {
+        "id": "1-6577",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "有效时间"
+        },
+        "cate": "治疗方案",
+        "question": "乳腺癌患者多久随访一次"
+    },
+    {
+        "id": "1-7222",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "去年查出HPV值高，主要是做TCT有问题，老是有炎症，有时有异味。一直治疗效果不好，值一直就没下来，最底是19。自从听到这个消息之后，我当时心情有那么一段时间非常的低落啊，不知道怎么办。请问hpv值高怎么治疗？请问男性HPV病毒多久能自愈"
+    },
+    {
+        "id": "1-7541",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "前一段时间我有过一次高危的性行为，没几天阴茎上后来长了一些小东西，挺痒的，还有严重的异味，每天都洗澡还是不舒服，去医院检查说是得了尖锐湿疣，我想问问应该怎么治疗？"
+    },
+    {
+        "id": "1-6247",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "恢复"
+        },
+        "cate": "治疗方案",
+        "question": "子宫癌能保留子宫吗"
+    },
+    {
+        "id": "1-7809",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "恢复时间"
+        },
+        "cate": "治疗方案",
+        "question": "轻微肺结核，需要治疗多久"
+    },
+    {
+        "id": "1-10517",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "疗效"
+        },
+        "cate": "治疗方案",
+        "question": "荆氏疗法治疗痔疮怎么样？"
+    },
+    {
+        "id": "1-1826",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "正常指标"
+        },
+        "cate": "治疗方案",
+        "question": "新生儿7天黄疸336.1"
+    },
+    {
+        "id": "1-10478",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "恢复时间"
+        },
+        "cate": "治疗方案",
+        "question": "痔疮手术术后会疼多长时间"
+    },
+    {
+        "id": "1-1823",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "化验/体检方案"
+        },
+        "cate": "治疗方案",
+        "question": "尿常规检查有隐血：125"
+    },
+    {
+        "id": "1-9621",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "颅骨骨膜窦需要手术吗"
+    },
+    {
+        "id": "1-4079",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "疗效"
+        },
+        "cate": "治疗方案",
+        "question": "肛泰贴肚脐治痔疮效果怎么样"
+    },
+    {
+        "id": "1-6815",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "请问叶酸应该如何补充？"
+    },
+    {
+        "id": "1-6527",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "治疗时间"
+        },
+        "cate": "治疗方案",
+        "question": "孩子的头上为什么会有血管瘤?,3个多月了，内蒙古婴儿头部血管瘤什么时间治疗较好？"
+    },
+    {
+        "id": "1-5350",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "方法"
+        },
+        "cate": "治疗方案",
+        "question": "干什么都没兴趣，总是心情低落，交流困难思维迟钝，不敢出门，我这是怎么了，这样的我好难受怎么才能走出来"
+    },
+    {
+        "id": "1-4357",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "恢复"
+        },
+        "cate": "治疗方案",
+        "question": "男性痔疮手术后又犯病了怎么办"
+    },
+    {
+        "id": "1-2581",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "治疗方案",
+            "label_36class": "疗效"
+        },
+        "cate": "治疗方案",
+        "question": "高血压用降压仪管用吗？"
+    },
+    {
+        "id": "1-5316",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "请问焦虑症能吃心神宁片吗？吃起来效果好不好？"
+    },
+    {
+        "id": "1-11523",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "对比"
+        },
+        "cate": "其他",
+        "question": "你好，我想咨询一下药物的作用，维思通分散片和维思通在效果上有什么区别？"
+    },
+    {
+        "id": "1-619",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "嘴疼耳朵疼头疼怎么办？是不是上火的症状啊？"
+    },
+    {
+        "id": "1-5980",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "两性"
+        },
+        "cate": "其他",
+        "question": "男遗精年龄多少"
+    },
+    {
+        "id": "1-11112",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "你好；请问恒古骨伤愈合剂的主治症状及成份分别有那些呢？"
+    },
+    {
+        "id": "1-10626",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "大便痛，出血，得了痔疮。应该怎么办？为什么男人会得痔疮？得痔疮的原因是什么？"
+    },
+    {
+        "id": "1-5437",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "咨询一下，德巴金丙戊酸钠缓释片的规格是多少，用来治疗双相情感障碍相关的躁狂发作可以吗"
+    },
+    {
+        "id": "1-186",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "养生"
+        },
+        "cate": "其他",
+        "question": "有哮喘，一剧烈运动就喘的那种，但是想要通过运动减肥，怎么规划才好，求解答"
+    },
+    {
+        "id": "1-10943",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "经常久坐，最近排便困难，是不是犯痔疮了？久坐会导致痔疮吗？原因有哪些？"
+    },
+    {
+        "id": "1-2150",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "胎儿什么时候会入盆？"
+    },
+    {
+        "id": "1-2721",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "正常人会心悸吗"
+    },
+    {
+        "id": "1-1754",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "养生"
+        },
+        "cate": "其他",
+        "question": "宝宝便秘吃什么蔬菜水果好？"
+    },
+    {
+        "id": "1-7984",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "什么是间质性肺炎？要怎么治疗？"
+    },
+    {
+        "id": "1-3366",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "两性"
+        },
+        "cate": "其他",
+        "question": "性雌激素指标严重偏高"
+    },
+    {
+        "id": "1-6084",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "2个月宝宝的血管瘤极佳治疗方案是什么，长在我家孩子鼻子上的血管瘤，有凸起的血管瘤，内蒙古婴儿长在鼻子的血管瘤怎么治啊？"
+    },
+    {
+        "id": "1-11128",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "运动后感觉腰疼，请问怎么回事？副作用的产生吗？"
+    },
+    {
+        "id": "1-7053",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "请问为什么月经会推迟？该吃什么药？"
+    },
+    {
+        "id": "1-7560",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "两性"
+        },
+        "cate": "其他",
+        "question": "请问怎样改掉晚睡的坏毛病啊？最近因为要和老公准备生孩子了，但是早睡都睡不着呢！"
+    },
+    {
+        "id": "1-6075",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "我想请问一下，尿道感染是什么原因导致？怎么解决？"
+    },
+    {
+        "id": "1-8273",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "养生"
+        },
+        "cate": "其他",
+        "question": "宝妈们怀孕两个月都吃的什么有营养的食物呢？想来学习一下大家的方法。"
+    },
+    {
+        "id": "1-6023",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "你好，请问一下，我经常尿频是怎么回事啊？效果比较好一点的？》"
+    },
+    {
+        "id": "1-10140",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "两性"
+        },
+        "cate": "其他",
+        "question": "阴唇里面又疼又痒"
+    },
+    {
+        "id": "1-230",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "间质性肺炎严重吗?如何治疗?"
+    },
+    {
+        "id": "1-10610",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "做过手术，术后便秘，发展成痔疮，大便出血，买了痔疮药，没效，做肛肠镜需要多少钱？检查前有什么限制？"
+    },
+    {
+        "id": "1-11278",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "椎管狭窄，脑供血不足可以买什么药来吃的吗，这药物有什么效果呢？"
+    },
+    {
+        "id": "1-707",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "左边小腹抽筋式胀痛的原因有哪些呢？是不是怀孕期都会有这么个阶段啊？平时需要怎么样调理才好呢？"
+    },
+    {
+        "id": "1-4251",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "两性"
+        },
+        "cate": "其他",
+        "question": "肛裂患者怎么做爱"
+    },
+    {
+        "id": "1-10714",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "对比"
+        },
+        "cate": "其他",
+        "question": "痔疮便血和肛裂便血一样吗？"
+    },
+    {
+        "id": "1-1666",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "几年来有时晩饭后突然肚子疼肠肠里咕噜咕噜响拉稀拉了就不疼了大便颜色是正常的黄的过几天有来一次胃也不舒服暧气这是什么原因造成的是什么病"
+    },
+    {
+        "id": "1-6686",
+        "source": "CMID",
+        "dataset_info": {
+            "label_4class": "其他",
+            "label_36class": "多问"
+        },
+        "cate": "其他",
+        "question": "请问用西药洗液治疗霉菌性阴道炎的效果好不好？"
+    }
+]
