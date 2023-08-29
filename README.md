@@ -163,6 +163,20 @@ Firstly, you need to install the requirments.
 pip install -r requirements.txt
 ```
 
+### Using through hugging face transformers
+```python
+>>> import torch
+>>> from transformers import AutoModelForCausalLM, AutoTokenizer
+>>> from transformers.generation.utils import GenerationConfig
+>>> tokenizer = AutoTokenizer.from_pretrained("Flmc/DISC-MedLLM", use_fast=False, trust_remote_code=True)
+>>> model = AutoModelForCausalLM.from_pretrained("Flmc/DISC-MedLLM", device_map="auto", torch_dtype=torch.float16, trust_remote_code=True)
+>>> model.generation_config = GenerationConfig.from_pretrained("Flmc/DISC-MedLLM")
+>>> messages = []
+>>> messages.append({"role": "user", "content": "我感觉自己颈椎非常不舒服，每天睡醒都会头痛"})
+>>> response = model.chat(tokenizer, messages)
+>>> print(response)
+```
+
 ### Run CLI Demo
 ```shell
 python cli_demo.py
