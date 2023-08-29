@@ -113,38 +113,6 @@ To train DISC-MedLLM, we construct a high-quality dataset called DISC-Med-SFT co
 
 <br>
 
-### Re-constructed AI doctor-patient dialogues
-<!-- <img src="https://github.com/t3acup/DISC-MED/blob/main/images/figure1.png" alt="Training"/> -->
-
-The real-world conversation data is decomposed from [MedDialog](https://github.com/UCSD-AI4H/Medical-Dialogue-System) and [cMedQA2](https://github.com/zhangsheng93/cMedQA2). Our approach employs the language ability of general LLMs to reconstruct the entire dialogue.An example of a Real-world Conversation process is as follows:
-
-<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/adaption.png" alt="adaption" width="50%"/>
-<br>
-
-### Knowledge Graph QA pairs
-We constructed some QA pairs based on [CMeKG](https://github.com/king-yyf/CMeKG_tools) with the help of properly designed prompts for the GPT-3.5 model in two steps: 
-
-1. Transform the sampled knowledge into simple natural language QA pairs in the format (instruction, knowledge)
-
-2. Build diverse medical scenario single-turn conversations based on these simple QA pairs.
-<!-- ### Human Preferences Guided Conversation Samples -->
-<br>
-
-### Behavioral Preference Dataset
-We manually selected 2,000 high-quality samples from MedDialog and cMedQA2 datasets, untouched in previous processes. After adapting some with GPT-4 and manual revisions, we used a few-shot technique to guide GPT-3.5 in generating 2,000 superior behavior-tuning samples, aligned with human preferences.
-
-<br>
-
-### [MedMCQA](https://github.com/medmcqa/medmcqa)
-A large-scale, Multiple-Choice Question Answering (MCQA) dataset designed to address real-world medical entrance exam questions.We utilize it to generate professional medical QA samples to enhance the model's expertise in Q&A capabilities.
-
-<br>
-
-### General
-To diversify our training set and prevent skill degradation, we incorporated general data alongside medical content during SFT training. We utilized samples from [moss-sft-003](https://huggingface.co/fnlp/moss-moon-003-sft) and [alpaca_gpt4_data_zh](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data_zh.json), including 33k Brainstorming, Role Playing, and Harmless category samples from moss-sft-003, and 1k randomly chosen instances from alpaca gpt4 data zh.
-
-<br>
-
 
 ### Download
 We have released a total of 470k training data entries, including re-constructed dialogues and knowledge graph QA pairs. You can download the dataset via the provided [link](https://huggingface.co/datasets/Flmc/DISC-Med-SFT).
