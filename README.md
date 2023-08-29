@@ -35,7 +35,7 @@ Owing to our goal-oriented strategy and the framework that integrates both LLM a
 ### Treatment Inquiry
 <img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/advice.gif" alt="sample2" width="50%"/>
 
-## Dataset Info
+## Dataset
 <!-- In order to align the distribution of actual doctor responses with the intended AI doctor response distribution, our dataset is constructed from five main resources: Real-world Conversations (420k), Knowledge Graph-derived Question-Answer pairs (50k), Artificially Annotated Data aligned with human preferences (2k), MedMCQA (8k), and additional general data (34k). -->
 
 To train DISC-MedLLM, we construct a high-quality dataset called DISC-Med-SFT consisting of 480k distinct examples derived from existing medical datasets. We adopt a goal-oriented strategy by selectively reconstructing the dataset using a few deliberately chosen sources. These data sources serve the purpose of assisting LLMs in acquiring medical domain knowledge, aligning behavioral patterns with human preferences, and capturing real-world online medical dialogue distributions.
@@ -110,12 +110,15 @@ To train DISC-MedLLM, we construct a high-quality dataset called DISC-Med-SFT co
 | moss-sft-003               | 33,000            | Other                           |
 | alpaca_gpt4_data_zh           | 1,000             | Other                           | -->
 
+<br>
+
 ### Re-constructed AI doctor-patient dialogues
 <!-- <img src="https://github.com/t3acup/DISC-MED/blob/main/images/figure1.png" alt="Training"/> -->
 
 The real-world conversation data is decomposed from [MedDialog](https://github.com/UCSD-AI4H/Medical-Dialogue-System) and [cMedQA2](https://github.com/zhangsheng93/cMedQA2). Our approach employs the language ability of general LLMs to reconstruct the entire dialogue.An example of a Real-world Conversation process is as follows:
 
 <img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/adaption.png" alt="adaption" width="50%"/>
+<br>
 
 ### Knowledge Graph QA pairs
 We constructed some QA pairs based on [CMeKG](https://github.com/king-yyf/CMeKG_tools) with the help of properly designed prompts for the GPT-3.5 model in two steps: 
@@ -123,17 +126,23 @@ We constructed some QA pairs based on [CMeKG](https://github.com/king-yyf/CMeKG_
 1. Transform the sampled knowledge into simple natural language QA pairs in the format (instruction, knowledge)
 
 2. Build diverse medical scenario single-turn conversations based on these simple QA pairs.
-
 <!-- ### Human Preferences Guided Conversation Samples -->
+<br>
+
 ### Behavioral Preference Dataset
 We manually selected 2,000 high-quality samples from MedDialog and cMedQA2 datasets, untouched in previous processes. After adapting some with GPT-4 and manual revisions, we used a few-shot technique to guide GPT-3.5 in generating 2,000 superior behavior-tuning samples, aligned with human preferences.
+
+<br>
 
 ### [MedMCQA](https://github.com/medmcqa/medmcqa)
 A large-scale, Multiple-Choice Question Answering (MCQA) dataset designed to address real-world medical entrance exam questions.We utilize it to generate professional medical QA samples to enhance the model's expertise in Q&A capabilities.
 
+<br>
+
 ### General
 To diversify our training set and prevent skill degradation, we incorporated general data alongside medical content during SFT training. We utilized samples from [moss-sft-003](https://huggingface.co/fnlp/moss-moon-003-sft) and [alpaca_gpt4_data_zh](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data_zh.json), including 33k Brainstorming, Role Playing, and Harmless category samples from moss-sft-003, and 1k randomly chosen instances from alpaca gpt4 data zh.
 
+<br>
 
 ### Download
 You can download our dataset at <Reserved for link of dataset\>
@@ -143,6 +152,7 @@ We underwent two stages of training, both using 4*A800 GPUs. In the first stage,
 In the second stage, known as behavior fine-tuning, we combined a 2k carefully curated AI doctor-patient dialogue dataset with 1k alpaca gpt4 zh data. Hyperparameters: global batch size 8, learning rate 5e-6 (AdamW optimizer), 1 epoch, max sequence length 2048 tokens, no weight decay.
 
 <img src="https://github.com/t3acup/DISC-MED/blob/main/images/figure3.png" alt="Training" width="75%"/> -->
+<br>
 
 ## Deploy
 The current version of DISC-MedLLM is derived from the [Baichuan-13B-Base](https://github.com/baichuan-inc/Baichuan-13B). You can directly download our model weights from the HuggingFace [repository](https://huggingface.co/Flmc/DISC-MedLLM), or automatically obtain them through the demo code.
@@ -152,16 +162,17 @@ Firstly, you need to install the requirments.
 pip install -r requirements.txt
 ```
 
-* Run CLI Demo
+### Run CLI Demo
 ```shell
 python cli_demo.py
 ```
-* Run Web Demo
+### Run Web Demo
 ```shell
 streamlit run web_demo.py --server.port 8888
 ```
 
 Additionally, since the current version uses Baichuan as the base model, you can refer to its [repo](https://github.com/baichuan-inc/Baichuan-13B) for deploying with int8, int4 quantized inference. However, using quantized deployment will result in performance degradation.
+<br>
 
 ## Training
 You can fine-tuning our model using the data same as our data schema.
