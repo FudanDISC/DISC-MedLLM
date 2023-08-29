@@ -11,7 +11,7 @@
 This is the repo of DISC-MedLLM, a medical domain-specific LLM designed for conversational healthcare scenarios by [Fudan-DISC](http://fudan-disc.com) lab.
 
 The following resources have been released:
-* DISC-Med-SFT Dataset (with out behavioral preference dataset)
+* [DISC-Med-SFT Dataset](https://huggingface.co/datasets/Flmc/DISC-Med-SFT) (with out behavioral preference dataset)
 * Model [weights](https://huggingface.co/Flmc/DISC-MedLLM) of DISC-MedLLM
 
 You can check this [link](http://medllm.fudan-disc.com) to try our online demo.
