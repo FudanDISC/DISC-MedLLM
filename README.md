@@ -1,31 +1,39 @@
 # DISC-MedLLM
-<div align="left">
 
+<div align="left">
+  
 [![Generic badge](https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg)](https://huggingface.co/Flmc/DISC-MedLLM)
-<div>
-This is the repo of DISC-MedLLM xxxxx
+[![license](https://img.shields.io/github/license/modelscope/modelscope.svg)](https://github.com/FudanDISC/DICS-MedLLM/blob/main/LICENSE)
+
+</div>
+  
+This is the repo of DISC-MedLLM, a medical domain-specific LLM designed for conversational healthcare scenarios by [Fudan-DISC](http://fudan-disc.com) lab.
 
 The following resources have been released:
-1. DISC-Med-SFT (with out behavioral preference dataset)
-2. Model weight of DISC-MedLLM
+* DISC-Med-SFT (with out behavioral preference dataset)
+* Model [weight](https://huggingface.co/Flmc/DISC-MedLLM) of DISC-MedLLM
 
 You can check this [link](http://medllm.fudan-disc.com) to try our online demo.
 
 ## Overview
-Welcome to DISC-MedLLM: your companion in medical conversations. Our cutting-edge Chinese conversational medical language model is designed to interact just like an AI doctor, catering to your needs for medical consultations, health advice, and knowledge inquiries.
+The DISC-MedLLM is a large-scale domain-specific model designed for conversational healthcare scenarios. It can address a variety of your needs, including medical consultations and inquiries, offering you high-quality health support services.
 
-The current version is derived from the [Baichuan-13B-Base](https://github.com/baichuan-inc/Baichuan-13B), The DISC-MedLLM effectively bridges the gap between general language models and real-world medical consultations, as evidenced by experimental results.
+The DISC-MedLLM effectively bridges the gap between general language models and real-world medical consultations, as evidenced by experimental results.
 
 Owing to our goal-oriented strategy and the framework that integrates both LLM and Human in the loop based on real-world doctor-patient dialogues and knowledge graphs, DISC-MedLLM boasts several features:
 
-1. Knowledge-intensive and reliable
-2. Ability of multi-turn inquiry
-3. Alignment with human preferences
+* **Knowledge-intensive and reliable**
+* **Ability of multi-turn inquiry**
+* **Alignment with human preferences**
 
-\<Figure DISC-Med-SFT\>
+<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/data_construction.png" alt="data-construction" width="75%"/>
 
 ## Demo
-### Coming Soon
+### Consultation
+<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/consultation.gif" alt="sample1" width="50%"/>
+
+### Treatment Inquiry
+<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/advice.gif" alt="sample2" width="50%"/>
 
 ## Dataset Info
 <!-- In order to align the distribution of actual doctor responses with the intended AI doctor response distribution, our dataset is constructed from five main resources: Real-world Conversations (420k), Knowledge Graph-derived Question-Answer pairs (50k), Artificially Annotated Data aligned with human preferences (2k), MedMCQA (8k), and additional general data (34k). -->
@@ -107,7 +115,7 @@ To train DISC-MedLLM, we construct a high-quality dataset called DISC-Med-SFT co
 
 The real-world conversation data is decomposed from [MedDialog](https://github.com/UCSD-AI4H/Medical-Dialogue-System) and [cMedQA2](https://github.com/zhangsheng93/cMedQA2). Our approach employs the language ability of general LLMs to reconstruct the entire dialogue.An example of a Real-world Conversation process is as follows:
 
-<img src="https://github.com/t3acup/DISC-MED/blob/main/images/figure2.png" alt="Actual conversation process" width="75%"/>
+<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/adaption.png" alt="adaption" width="50%"/>
 
 ### Knowledge Graph QA pairs
 We constructed some QA pairs based on [CMeKG](https://github.com/king-yyf/CMeKG_tools) with the help of properly designed prompts for the GPT-3.5 model in two steps: 
@@ -137,18 +145,18 @@ In the second stage, known as behavior fine-tuning, we combined a 2k carefully c
 <img src="https://github.com/t3acup/DISC-MED/blob/main/images/figure3.png" alt="Training" width="75%"/> -->
 
 ## Deploy
-The current version of DISC-MedLLM is derived from the [Baichuan-13B-Base](https://github.com/baichuan-inc/Baichuan-13B).
+The current version of DISC-MedLLM is derived from the [Baichuan-13B-Base](https://github.com/baichuan-inc/Baichuan-13B). You can directly download our model weights from the HuggingFace [repository](https://huggingface.co/Flmc/DISC-MedLLM), or automatically obtain them through the demo code.
 
 Firstly, you need to install the requirments.
 ```shell
 pip install -r requirements.txt
 ```
 
-1. Run CLI Demo
+* Run CLI Demo
 ```shell
 python cli_demo.py
 ```
-2. Run Web Demo
+* Run Web Demo
 ```shell
 streamlit run web_demo.py --server.port 8888
 ```
@@ -163,19 +171,20 @@ deepspeed --num_gpus={num_gpus} ./train/train.py --train_args_file ./train/train
 ```
 > Please check the setup of `sft.json` before you attempt to start training.
 
-If you want to fine-tuning our model with other training code, please use the following dialogue format.
+<br>If you want to fine-tuning our model with other training code, please use the following dialogue format.
 ```shell
 <\b><$user_token>content<$assistant_token>content<\s><$user_token>content ...
 ```
+The `user_token` and `assistant_token` we used are `195` and `196`, respectly. Which is same as Baichuan-13b-Chat.
 
 ## Evaluation
 <!-- We compare our model with three general-purpose LLMs and two conversational Chinese medical domain LLMs. Specifically, these are GPT-3.5 and GPT-4 from OpenAI, the aligned conversational version of our backbone model Baichuan-13B-Base, Baichuan-13B-Chat, and the open-source Chinese conversational medical model HuatuoGPT-13B (trained from Ziya-Llama-13B) and BianQue-2. Our evaluation approach encompasses two key dimensions: an assessment of conversational aptitude using GPT-4 as a reference judge, and a comprehensive benchmark evaluation. -->
 
 We assess the model's performance from two perspectives to check its capability of providing accuracy answers in single-turn conversations and presenting systematical consultation in multi-turn conversations, respectively.
-1. Single-turn evaluation, we construct a benchmark consisting of multiple choices questions collected from three public medical datasets and evaluate the model's accuracy.
-2. For multi-turn evaluation, we first construct a small set of high quality consulting cases, and then employ GPT-3.5 play the role of the patient based on the cases, and chat with the model. We use GPT-4 to evaluate the model's **proactivity**, **accuracy**, **helpfulness** and **linguistic quality**.
+* Single-turn evaluation, we construct a benchmark consisting of multiple choices questions collected from three public medical datasets and evaluate the model's accuracy.
+* For multi-turn evaluation, we first construct a small set of high quality consulting cases, and then employ GPT-3.5 play the role of the patient based on the cases, and chat with the model. We use GPT-4 to evaluate the model's **proactivity**, **accuracy**, **helpfulness** and **linguistic quality**.
 
-You can see the evalution set, dialogues generated by each model and scores provided by GPT-4 in `eval` folder.
+You can see the evalution set, dialogues generated by each model and scores provided by GPT-4 in `eval` folder.<br>
 
 ### Single-turn evaluation
 We utilized the [MLEC-QA](https://github.com/Judenpech/MLEC-QA) and Western Medicine([NEEP]()) 306 multiple-choice question datasets for our evaluation.
@@ -222,10 +231,10 @@ Our evaluation procedure draws upon three distinct datasets: Chinese Medical Ben
 | **DISC-MedLLM**        | 4.64            | 4.47         | 4.66            | 4.99                   | 4.69        |
 
 #### Results of CMD
-<img src="https://github.com/t3acup/DISC-MED/blob/main/images/radar_CMD.png" alt="CMD"/>
+<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/cmd.png" alt="cmd" width="75%"/>
 
 #### Results of CMID
-<img src="https://github.com/t3acup/DISC-MED/blob/main/images/radar_CMID.png" alt="CMID"/>
+<img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/cmid.png" alt="cmid" width="75%"/>
 
 
 
