@@ -16,7 +16,7 @@ The following resources have been released:
 You can check this [link](http://medllm.fudan-disc.com) to try our online demo.
 
 ## Overview
-The DISC-MedLLM is a large-scale domain-specific model designed for conversational healthcare scenarios. It can address a variety of your needs, including medical consultations and inquiries, offering you high-quality health support services.
+The DISC-MedLLM is a large-scale domain-specific model designed for conversational healthcare scenarios. It can address a variety of your needs, including medical consultations and treatment inquiries, offering you high-quality health support services.
 
 The DISC-MedLLM effectively bridges the gap between general language models and real-world medical consultations, as evidenced by experimental results.
 
