@@ -170,7 +170,7 @@ deepspeed --num_gpus={num_gpus} ./train/train.py --train_args_file ./train/train
 ```shell
 <\b><$user_token>content<$assistant_token>content<\s><$user_token>content ...
 ```
-The `user_token` and `assistant_token` we used are `195` and `196`, respectly. Which is same as Baichuan-13b-Chat.
+The `user_token` and `assistant_token` we used are `195` and `196`, respectively. Which is same as Baichuan-13b-Chat.
 
 ## Evaluation
 <!-- We compare our model with three general-purpose LLMs and two conversational Chinese medical domain LLMs. Specifically, these are GPT-3.5 and GPT-4 from OpenAI, the aligned conversational version of our backbone model Baichuan-13B-Base, Baichuan-13B-Chat, and the open-source Chinese conversational medical model HuatuoGPT-13B (trained from Ziya-Llama-13B) and BianQue-2. Our evaluation approach encompasses two key dimensions: an assessment of conversational aptitude using GPT-4 as a reference judge, and a comprehensive benchmark evaluation. -->
