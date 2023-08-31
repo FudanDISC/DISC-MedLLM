@@ -1,6 +1,6 @@
 # DISC-MedLLM
 
-<div align="left">
+<div align="center">
   
 [![Generic badge](https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg)](https://huggingface.co/Flmc/DISC-MedLLM)
 [![license](https://img.shields.io/github/license/modelscope/modelscope.svg)](https://github.com/FudanDISC/DICS-MedLLM/blob/main/LICENSE)
