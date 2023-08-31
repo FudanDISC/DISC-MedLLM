@@ -8,7 +8,7 @@
 </div>
 <div align="center">
 
-[Demo](http://medllm.fudan-disc.com) | [技术报告](https://arxiv.org/abs/2308.14346)
+[Demo](http://med.fudan-disc.com) | [技术报告](https://arxiv.org/abs/2308.14346)
 <br>
 中文 | [EN](https://github.com/FudanDISC/DISC-MedLLM/blob/main/README_EN.md)
 </div>
