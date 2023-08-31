@@ -5,7 +5,12 @@
 [![Generic badge](https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg)](https://huggingface.co/Flmc/DISC-MedLLM)
 [![license](https://img.shields.io/github/license/modelscope/modelscope.svg)](https://github.com/FudanDISC/DICS-MedLLM/blob/main/LICENSE)
 <br>
-[**Demo**](http://medllm.fudan-disc.com) | [**Tech Report**](https://arxiv.org/abs/2308.14346)
+</div>
+<div align="center">
+
+[Demo](http://medllm.fudan-disc.com) | [Tech Report](https://arxiv.org/abs/2308.14346)
+<br>
+[中文](https://github.com/FudanDISC/DISC-MedLLM/blob/main/README.md) | EN
 </div>
   
 This is the repo of DISC-MedLLM, a medical domain-specific LLM designed for conversational healthcare scenarios by [Fudan-DISC](http://fudan-disc.com) lab.
