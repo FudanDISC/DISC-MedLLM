@@ -33,7 +33,6 @@ DISC-MedLLM 有效地对齐了医疗场景下的人类偏好，弥合了通用�
 * **多轮对话的问询能力**，我们以真实咨询对话纪录作为信息源，使用大模型进行对话重建，构建过程中要求模型完全对齐对话中的医学信息。
 * **对齐人类偏好的回复**，病人希望在咨询的过程中获得更丰富的支撑信息和背景知识，但人类医生的回答往往简练；我们通过人工筛选，构建符合人类偏好的高质量的小规模行为微调样本，对齐病人的需求。
 
-<数据构造图>
 <img src="https://github.com/FudanDISC/DISC-MedLLM/blob/main/images/data_construction.png" alt="data-construction" width="85%"/>
 
 ## 模型效果演示
