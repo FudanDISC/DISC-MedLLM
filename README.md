@@ -19,7 +19,7 @@ DISC-MedLLM 是一个专门针对医疗健康对话式场景而设计的医疗�
 * [DISC-Med-SFT 数据集](https://huggingface.co/datasets/Flmc/DISC-Med-SFT) (不包括行为偏好训练数据)
 * DISC-MedLLM 的[模型权重](https://huggingface.co/Flmc/DISC-MedLLM)
 
-您可以通过访问这个[链接](http://medllm.fudan-disc.com)来试用我们的模型。
+您可以通过访问这个[链接](http://med.fudan-disc.com)来试用我们的模型。
 
 ## 概述
 
