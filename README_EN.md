@@ -19,7 +19,7 @@ The following resources have been released:
 * [DISC-Med-SFT Dataset](https://huggingface.co/datasets/Flmc/DISC-Med-SFT) (with out behavioral preference dataset)
 * Model [weights](https://huggingface.co/Flmc/DISC-MedLLM) of DISC-MedLLM
 
-You can check this [link](http://medllm.fudan-disc.com) to try our online demo.
+You can check this [link](http://med.fudan-disc.com) to try our online demo.
 
 ## Overview
 The DISC-MedLLM is a large-scale domain-specific model designed for conversational healthcare scenarios. It can address a variety of your needs, including medical consultations and treatment inquiries, offering you high-quality health support services.
