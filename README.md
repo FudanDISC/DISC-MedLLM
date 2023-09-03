@@ -157,7 +157,7 @@ streamlit run web_demo.py --server.port 8888
 ```shell
 deepspeed --num_gpus={num_gpus} ./train/train.py --train_args_file ./train/train_args/sft.json
 ```
-> 请在您在开始进行模型训练前检查 `sft.json` 中的设置。
+> 请您在开始进行模型训练前检查 `sft.json` 中的设置。
 
 <br>如果您想使用其他训练代码来微调我们的模型，请使用如下对话格式。
 ```shell
@@ -168,10 +168,10 @@ deepspeed --num_gpus={num_gpus} ./train/train.py --train_args_file ./train/train
 ## 模型评测
 <!-- We compare our model with three general-purpose LLMs and two conversational Chinese medical domain LLMs. Specifically, these are GPT-3.5 and GPT-4 from OpenAI, the aligned conversational version of our backbone model Baichuan-13B-Base, Baichuan-13B-Chat, and the open-source Chinese conversational medical model HuatuoGPT-13B (trained from Ziya-Llama-13B) and BianQue-2. Our evaluation approach encompasses two key dimensions: an assessment of conversational aptitude using GPT-4 as a reference judge, and a comprehensive benchmark evaluation. -->
 
-我们从两个角度评估了模型的性能，包括检测其在单轮对话中提供准确答案的能力以及在多轮对话中进行系统性问诊的能力。
+我们从两个角度评估了模型的性能，包括在单轮QA问题中提供准确答案的能力以及在多轮对话中完成系统性问诊、解决咨询需求的能力。
 
 * 在单轮对话评测中，我们构建了一个基准测试数据集，其中包含从两个公开医疗数据集中收集的多项选择题，并评估模型回答的准确性。
-* 对于多轮对话评测，我们首先构建了一些高质量的诊疗对话案例，然后让 GPT-3.5 扮演这些案例中的患者角色，并与扮演医生角色的模型进行对话。我们利用 GPT-4 来评估了模型的**主动性**、**准确性**, **帮助性**和**语言能力**。
+* 对于多轮对话评测，我们首先构建了一些高质量的诊疗对话案例，然后让 GPT-3.5 扮演这些案例中的患者角色，并与扮演医生角色的模型进行对话。我们利用 GPT-4 来评估整段每段对话的**主动性**、**准确性**, **帮助性**和**语言能力**。
 
 您可以在 `eval/` 目录下查看测试数据集、各个模型生成的对话结果以及 GPT-4 提供的打分结果。<br>
 
