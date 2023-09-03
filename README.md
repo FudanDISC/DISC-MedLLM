@@ -72,7 +72,7 @@ DISC-MedLLM 有效地对齐了医疗场景下的人类偏好，弥合了通用�
 </thead>
 <tbody>
   <tr>
-    <td class="tg-9wq8" rowspan="2">利用AI重构的医患对话</td>
+    <td class="tg-9wq8" rowspan="2">利用LLM重构AI医患对话</td>
     <td class="tg-9wq8">MedDialog</td>
     <td class="tg-9wq8">400k</td>
   </tr>
