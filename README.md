@@ -72,7 +72,7 @@ DISC-MedLLM 有效地对齐了医疗场景下的人类偏好，弥合了通用�
 </thead>
 <tbody>
   <tr>
-    <td class="tg-9wq8" rowspan="2">利用LLM重构AI医患对话</td>
+    <td class="tg-9wq8" rowspan="2">重构AI医患对话</td>
     <td class="tg-9wq8">MedDialog</td>
     <td class="tg-9wq8">400k</td>
   </tr>
@@ -112,7 +112,7 @@ DISC-MedLLM 有效地对齐了医疗场景下的人类偏好，弥合了通用�
 
 ### 下载
 
-我们总共发布了近47万条训练数据，其中包括重新构建的对话和知识图谱问答对。您可以访问这个[链接](https://huggingface.co/datasets/Flmc/DISC-Med-SFT)下载数据集。
+我们总共发布了近47万条训练数据，其中包括重构AI医患对话和知识图谱问答对。您可以访问这个[链接](https://huggingface.co/datasets/Flmc/DISC-Med-SFT)下载数据集。
 
 <br>
 
