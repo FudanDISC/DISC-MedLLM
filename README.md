@@ -171,11 +171,11 @@ deepspeed --num_gpus={num_gpus} ./train/train.py --train_args_file ./train/train
 我们从两个角度评估了模型的性能，包括在单轮QA问题中提供准确答案的能力以及在多轮对话中完成系统性问诊、解决咨询需求的能力。
 
 * 在单轮对话评测中，我们构建了一个基准测试数据集，其中包含从两个公开医疗数据集中收集的多项选择题，并评估模型回答的准确性。
-* 对于多轮对话评测，我们首先构建了一些高质量的诊疗对话案例，然后让 GPT-3.5 扮演这些案例中的患者角色，并与扮演医生角色的模型进行对话。我们利用 GPT-4 来评估整段每段对话的**主动性**、**准确性**, **帮助性**和**语言能力**。
+* 对于多轮对话评测，我们首先构建了一些高质量的诊疗对话案例，然后让 GPT-3.5 扮演这些案例中的患者角色，并与扮演医生角色的模型进行对话。我们利用 GPT-4 来评估整段每段对话的**主动性**、**准确性**, **帮助性**和**语言质量**。
 
 您可以在 `eval/` 目录下查看测试数据集、各个模型生成的对话结果以及 GPT-4 提供的打分结果。<br>
 
-### 单轮对话评测
+### 单轮QA评测
 我们在评测中选用了 [MLEC-QA](https://github.com/Judenpech/MLEC-QA) 和考研306（西医综合）的单项选择题。
 <!-- The MLEC-QA contains questions from the China NMLEC, categorized into Clinic, Stomatology, Public Health, Traditional Chinese Medicine, and Integrated Traditional Chinese and Western Medicine. We selected 1,362 questions (10% of the test set) for evaluation. From Western Medicine 306, we used a combined 270 questions from 2020 and 2021. Our study involved both zero-shot and few-shot approaches, with examples from MLEC-QA's validation set and 2019 Western Medicine 306 questions for the few-shot samples. -->
 
@@ -210,7 +210,7 @@ deepspeed --num_gpus={num_gpus} ./train/train.py --train_args_file ./train/train
 4. Linguistic Quality: The conversation is logical. The doctor correctly understands the patient's semantics, and the expression is smooth and natural. -->
 
 #### CMB-clin数据集的评测结果:
-| **模型**              | **主动性** | **准确性** | **帮助性** | **语言能力** | **平均** |
+| **模型**              | **主动性** | **准确性** | **帮助性** | **语言质量** | **平均** |
 |------------------------|-----------------|--------------|-----------------|------------------------|-------------|
 | **GPT3.5**             | 4.30            | 4.53         | 4.55            | 5.00                   | 4.60        |
 | **GPT4**               | 4.15            | 4.70         | 4.75            | 4.96                   | 4.64        |
