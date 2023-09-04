@@ -132,7 +132,7 @@ In the second stage, known as behavior fine-tuning, we combined a 2k carefully c
 ## Deploy
 The current version of DISC-MedLLM is derived from the [Baichuan-13B-Base](https://github.com/baichuan-inc/Baichuan-13B). You can directly download our model weights from the HuggingFace [repository](https://huggingface.co/Flmc/DISC-MedLLM), or automatically obtain them through the demo code.
 
-Firstly, you need to install the requirments.
+Firstly, you need to install the requirements.
 ```shell
 pip install -r requirements.txt
 ```
