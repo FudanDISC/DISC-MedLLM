@@ -12,7 +12,7 @@ st.title("DISC-MedLLM")
 @st.cache_resource
 def init_model():
     model = AutoModelForCausalLM.from_pretrained(
-        "/root/output/baichuan13b-sft-after300k-artificial-v2-add/final",
+        "Flmc/DISC-MedLLM",
         torch_dtype=torch.float16,
         device_map="auto",
         trust_remote_code=True
