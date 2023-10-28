@@ -257,3 +257,12 @@ deepspeed --num_gpus={num_gpus} ./train/train.py --train_args_file ./train/train
       primaryClass={cs.CL}
 }
 ```
+
+## Star History
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FudanDISC/DISC-MedLLM&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FudanDISC/DISC-MedLLM&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FudanDISC/DISC-FinMed&type=Date" />
+</picture>
+
